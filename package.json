@@ -6,6 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository" : {
+    "type" : "git",
+    "url": "https://github.com/sreejithsree11/express404.git",
+    "directory": "package/express404"
+  },
   "dependencies": {
     "ejs": "^3.1.5"
   },
