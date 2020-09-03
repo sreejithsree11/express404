@@ -9,6 +9,7 @@ function express404(app, type, value = '404') {
         app.set('view engine', 'ejs');
         // Assume 404 since no middleware responded
         app.use(function (req, res) {
+            res.status(404);
             res.render(value);
         });
     } else {
